@@ -1,7 +1,7 @@
 from app import app
 from flask import render_template
 
-@app.route("/")
+@app.route("/login")
 def homepage():
     return render_template('login.html')
 
