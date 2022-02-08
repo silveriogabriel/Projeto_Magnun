@@ -3,22 +3,22 @@
 
 @font-face {
     font-family: Poppins-Regular;
-    src: url_for('static', filename='login/fonts/poppins/Poppins-Regular.ttf');
+    src: url('../fonts/poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
     font-family: Poppins-Medium;
-    src: url_for( 'static', filename='login/fonts/poppins/Poppins-Medium.ttf');
+    src: url('../fonts/poppins/Poppins-Medium.ttf');
 }
 
 @font-face {
     font-family: Montserrat-Medium;
-    src: url_for("{{ url_for( 'static', filename='login/fonts/montserrat/Montserrat-Medium.ttf' )}}");
+    src: url('../fonts/montserrat/Montserrat-Medium.ttf');
 }
 
 @font-face {
     font-family: Montserrat-SemiBold;
-    src: url_for("{{ url_for( 'static', filename='fonts/montserrat/Montserrat-SemiBold.ttf' )}}");
+    src: url('../fonts/montserrat/Montserrat-SemiBold.ttf');
 }
 
 
@@ -44,7 +44,7 @@ a {
     font-family: Poppins-Regular;
     font-size: 14px;
     line-height: 1.7;
-    color: #f50000;
+    color: #666666;
     margin: 0px;
     transition: all 0.4s;
     -webkit-transition: all 0.4s;
@@ -199,19 +199,19 @@ iframe {
 .txt1 {
     font-family: Montserrat-SemiBold;
     font-size: 16px;
-    color: #cc0000;
+    color: #555555;
     line-height: 1.5;
 }
 
 .txt2 {
     font-family: Poppins-Regular;
-    font-size: 17px;
-    color: #33ff00;
+    font-size: 14px;
+    color: #0326ec;
     line-height: 1.5;
 }
 
 .bo1 {
-    border-bottom: 1px solid #33ff00;
+    border-bottom: 1px solid #999999;
 }
 
 
@@ -388,8 +388,8 @@ iframe {
 .focus-input100 {
     position: absolute;
     display: block;
-    width: calc(100%+2px);
-    height: calc(100%+2px);
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
     top: -1px;
     left: -1px;
     pointer-events: none;
