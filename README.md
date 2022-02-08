@@ -1,2 +1,3 @@
-# G-trading-Flask
- Site desenvpolvido em flask de trade online
+# Projeto Magnun
+
+Nova Rede Social!
