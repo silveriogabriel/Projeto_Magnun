@@ -1,0 +1,33 @@
+{% extends 'base.html' %} {% block content%}
+<center>
+    {% if user %}
+    <p>Bem - Vindo ao Magnun, {{user}}!</p>
+
+    {% else %}
+
+    <p>Bem - Vindo ao Magnun!</p>
+
+    {% endif %}
+</center>
+<h2>Propostas do dia</h2>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid doloremque, nu mquam ipsam q ui veritati s eligendi odio quam . Ut, explicabo laudantium. Suscipit a rchitecto ea necessitatibus impedi temporibus culpa beatae molestiae deserunt?
+</p>
+<h2>Acontecimentos Ribeirao Grande</h2>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ullam, fugit, repellendus officiis vel ab amet deserunt dolores delectus aspernatur fuga et possimus excepturi quidem nihil cupiditate ratione? Corrupti, dolore!
+
+</p>
+<h2>O dollar esta subindo ?</h2>
+<p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. A accusamus sapiente praesentium, consequatur facilis molestias unde iusto doloribus non natus harum distinctio velit obcaecati laudantium corporis ad necessitatibus totam dolores!
+</p>
+<h2>Realmente a computaçao vai dominar a mente humana?</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque sequi molestias fugiat consectetur cumque pariatur quae velit fuga magni! Nobis veritatis consectetur, repellat nisi et vero molestias sunt alias iusto?</p>
+<h2>Pessoas invadem bancos armados ate os dentes.. dizem que um dos miliantes usava uma cartucheira 2 tiro!</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, minus numquam obcaecati repellat sapiente veritatis vel soluta quae provident recusandae eos cumque eveniet nostrum nemo id incidunt iusto. Quae, dicta?Lorem ipsum dolor sit amet consectetur
+    adipisicing elit. Corporis porro praesentium maiores consequuntur, officiis corrupti sint labore fugit, veritatis ipsum enim et facere quasi unde at. Dignissimos illum reprehenderit labore.</p>
+<a href="/login">Sair</a>
+<script src="{{ url_for( 'static', filename='js/bootstrap.min.js') }} "></script>
+<script src="{{ url_for( 'static', filename='jquery/jquery-3.2.1.min.js') }} "></script>
+{% endblock %}
